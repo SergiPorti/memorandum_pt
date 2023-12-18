@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:memorandum_pt/data/model/model.dart';
 import 'package:memorandum_pt/presentation/screens.dart';
 
 class MainGoRouter {
@@ -16,6 +17,11 @@ class MainGoRouter {
         GoRoute(
           path: "/",
           builder: (context, state) => const HomePage(),
+        ),
+        GoRoute(
+          path: "/details",
+          builder: (context, state) =>
+              BeerDetailsPage(beer: state.extra as Beer),
         ),
       ],
     );
