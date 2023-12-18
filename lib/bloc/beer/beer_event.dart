@@ -6,3 +6,6 @@ sealed class BeerEvent extends Equatable {
   @override
   List<Object> get props => [];
 }
+
+final class GetBeersEvent extends BeerEvent {}
+final class FilterBeersEvent extends BeerEvent {}
