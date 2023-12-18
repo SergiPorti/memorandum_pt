@@ -8,6 +8,7 @@
 
 >[!TIP]
 > No estoy muy orgulloso del diseño pero es lo que me ha dado tiempo a realizar en este tiempo.
+> No me ha dado tiempo a hacer la parte opcional pero, tenia parte de la lógica para poder hacerlo, la idea era hacer un filtrado de las Listas actuales de cervezas ya sea por nombre o título. ¿Por qué con las listas que nos llega en un principio? Porqué a priori he utilizado el endpoint que devuelve TODAS las cervezas que hay en la BD, entonces, como que no he encontrado ningún endpoint para filtrar, pues lo podía hacer yo con una función que reduzca la Lista según el nombre o el título que se pase.
 
 >[!NOTE]
 > - Como mejoras, hay un par de buggs que he podido encontrar. Primero, hay algunos textos que salen de la pantalla aún poniendo el maxlines y el textOverflow.
